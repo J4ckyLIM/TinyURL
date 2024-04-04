@@ -6,6 +6,8 @@ $ yarn install
 
 ## Running the app
 
+Make sure to run the database first and change your .env file according to your settings
+
 ```bash
 # database
 $ yarn run init
