@@ -4,16 +4,14 @@ import { DataSource } from "typeorm";
 
 import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
-import { ExampleModule } from "./examples/example.module";
 import { DatabaseModule } from "./database/database.module";
-import { UserModule } from "./users/users.module";
+import { TinyUrlsModule } from "./tinyUrls/tinyUrls.module";
 
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
     DatabaseModule,
-    ExampleModule,
-    UserModule,
+    TinyUrlsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
