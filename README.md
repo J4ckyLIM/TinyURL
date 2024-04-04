@@ -46,12 +46,12 @@ That makes 62 possible characters.
 
 Considering a slug with:
 
-1 character: 62 possibility (62^1)
-2 characters: 3 844 (62^2)
-3 characters: 238 328 (62^3)
-4 characters: 14 776 336 (62^4)
-5 characters: 916 132 832 (62^5)
-6 characters: 56 800 235 584 (62^6), could be good but in less than 2 years, we would run out of unique id
-7 characters: 3 521 614 600 000 (62^7)
+- 1 character: 62 possibility (62^1)
+- 2 characters: 3 844 (62^2)
+- 3 characters: 238 328 (62^3)
+- 4 characters: 14 776 336 (62^4)
+- 5 characters: 916 132 832 (62^5)
+- 6 characters: 56 800 235 584 (62^6), could be good but in less than 2 years, we would run out of unique id
+- 7 characters: 3 521 614 600 000 (62^7)
 
 7 seems to be the right number of character for our short id.
