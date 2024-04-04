@@ -5,8 +5,8 @@ import { DataSource } from "typeorm";
 import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
 import { ExampleModule } from "./examples/example.module";
-import { UserModule } from "./users/user.module";
 import { DatabaseModule } from "./database/database.module";
+import { UserModule } from "./users/users.module";
 
 @Module({
   imports: [
