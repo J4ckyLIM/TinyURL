@@ -10,7 +10,6 @@ interface MainLayoutProps {
 const MainLayout: FC<MainLayoutProps> = () => {
   return (
     <VStack h="100vh" w="full">
-      <TopBar />
       <Box
         ml={{ base: 0 }}
         border="1px solid blue"
