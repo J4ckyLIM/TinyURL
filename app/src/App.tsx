@@ -1,4 +1,3 @@
-import { AuthenticationProvider } from "./contexts/AuthenticationProvider";
 import { queryClient } from "./queryClient";
 import routes from "./router";
 import { ChakraProvider, theme } from "@chakra-ui/react";
@@ -13,9 +12,7 @@ const App = () => {
   return (
     <ChakraProvider theme={theme}>
       <QueryClientProvider client={queryClient}>
-        <AuthenticationProvider>
-          <Suspense>{elements}</Suspense>
-        </AuthenticationProvider>
+        <Suspense>{elements}</Suspense>
       </QueryClientProvider>
       <Toaster position="top-right" richColors />
     </ChakraProvider>

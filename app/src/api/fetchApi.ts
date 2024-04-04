@@ -11,7 +11,7 @@ export const methods = {
   DELETE: "DELETE",
 };
 
-const BASE_URL =
+export const BASE_URL =
   process.env.NODE_ENV === "production"
     ? "/api/v1"
     : `${import.meta.env.VITE_API_BASE_URL}`;

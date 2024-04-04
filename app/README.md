@@ -13,14 +13,9 @@ Docker and docker compose
 ### Start the App
 
 ```bash
-  yarn start
-```
+# to install dependencies
+  yarn
 
-### Use the app
-
-In order to test the app you can use the following account
-
-```bash
-  email: jacky@gmail.com
-  password: password
+# to run the app
+  yarn dev
 ```
