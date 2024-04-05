@@ -26,10 +26,10 @@ export const DetailView: FC<DetailViewProps> = ({ tinyUrl, onClose }) => {
           borderRadius="10px"
         >
           <VStack p="8" alignItems="flex-start" w="full">
-            <h3>Your URL to shorten</h3>
-            <Input value={`${BASE_URL}/${tinyUrl.slug}`} disabled />
             <h3>Original URL</h3>
             <Input value={tinyUrl.originalUrl} disabled />
+            <h3>Your shortened URL</h3>
+            <Input value={`${BASE_URL}/${tinyUrl.slug}`} disabled />
             <Button onClick={copyToClipboard}>
               <CopyIcon />
             </Button>
